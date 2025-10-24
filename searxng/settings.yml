@@ -6,6 +6,7 @@ server:
   secret_key: "1390b9fea7fade0937fd2df3a97ad9c6b416f28bb083a56583bc6f129c578af1"  # change this!
   limiter: false  # disable rate limiting for public API access
   image_proxy: true
+    public_instance: false  # disable public instance features and limiter enforcement
 
 redis:
   url: redis://redis:6379/0
